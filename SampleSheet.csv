@@ -1,0 +1,30 @@
+[Header]
+IEMFileVersion,4
+Experiment Name,Run6_INCa
+Date,01/04/2016
+Workflow,Amplicon - DS
+Application,Amplicon - DS
+Assay,TruSight Tumor
+Description,
+Chemistry,Amplicon
+
+[Manifests]
+A,TruSeq CAT Manifest TC0070336-CAT_PanelA.txt
+B,TruSeq CAT Manifest TC0070336-CAT_PanelB.txt
+
+[Reads]
+150
+150
+
+[Settings]
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,I5_Index_ID,index2,Manifest,GenomeFolder,Sample_Project,Description
+1A,BAR-Gin,,,A707,CCCAACCT,A501,TGAACCTT,A,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+1C,COP-Be,,,A707,CCCAACCT,A503,TGTTCTCT,A,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+1E,12E00031,,,A707,CCCAACCT,A505,CTAATCGA,A,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+1F,12E00043,,,A707,CCCAACCT,A506,CTAGAACA,A,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+4A,BAR-Gin,,,A710,TGTGACCA,A501,TGAACCTT,B,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+4C,COP-Be,,,A710,TGTGACCA,A503,TGTTCTCT,B,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+4E,12E00031,,,A710,TGTGACCA,A505,CTAATCGA,B,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
+4F,12E00043,,,A710,TGTGACCA,A506,CTAGAACA,B,Homo_sapiens\UCSC\hg19\Sequence\WholeGenomeFasta,GSC_TruSeq_V0,
